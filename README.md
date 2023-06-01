@@ -46,43 +46,90 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
+1.Open a new project using Quartus II.
+
+2.Declare the inputs and outputs inside module projname().
+
+3.Set the reset value using register.
+
+4.Use commands like begin and end to stimulate the counter.
+
+5.For Up counter increment the count and for Down counter decrement the count.
+
+6.End the verilog programming.
 
 
 
 ### PROGRAM 
 /*
+
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: B.VIJAY KUMAR
+RegisterNumber: 212222230173 
 */
-
-
-
-
-
+### UP COUNTER
+```
+module Counters(clk,A);
+input clk;
+output reg [3:0]A;
+always @(posedge clk)
+begin
+	A[3]=(((A[0])&(A[1])&(A[2]))^A[3]);
+	A[2]=(((A[0])&(A[1]))^A[2]);
+	A[1]=(A[0])^A[1];
+	A[0]=A[0]^1;
+end
+endmodule
+```
+### DOWN COUNTER
+```
+module Counters(clk,A);
+input clk;
+output reg [3:0]A;
+always@(posedge clk)
+begin
+	A[3]=(((~A[0])&(~A[1])&(~A[2]))^A[3]);
+	A[2]=(((~A[0])&(~A[1]))^A[2]);
+	A[1]=(~A[0])^A[1];
+	A[0]=(~A[0])^1;
+end
+endmodule
+```
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+### UP COUNTER
+
+![Screenshot (468)](https://github.com/VIJAYKUMAR22007124/Exp-7-Synchornous-counters-/assets/119657657/d05bbb56-e91d-446e-a01d-79c943428b5e)
 
 
 
+### DOWN COUNTER
 
-
+![Screenshot (467)](https://github.com/VIJAYKUMAR22007124/Exp-7-Synchornous-counters-/assets/119657657/e6b601ad-48e4-4f42-a3a3-202948df1bc2)
 
 
 
 
 ### TIMING DIGRAMS FOR COUNTER  
+### UP COUNTER
 
+![Screenshot (469)](https://github.com/VIJAYKUMAR22007124/Exp-7-Synchornous-counters-/assets/119657657/65e32571-2410-4d48-9a31-17aae5d7ac5f)
+
+
+### DOWN COUNTER
+
+![Screenshot (466)](https://github.com/VIJAYKUMAR22007124/Exp-7-Synchornous-counters-/assets/119657657/b0424311-031c-4eef-b0d0-a35d08020ff1)
 
 
 
 
 ### TRUTH TABLE 
 
-
-
+![WhatsApp Image 2023-06-01 at 11 39 42](https://github.com/VIJAYKUMAR22007124/Exp-7-Synchornous-counters-/assets/119657657/ed4dce46-2cd6-45b3-bb5e-afe825f102ee)
 
 
 
 ### RESULTS 
+
+Sucessfully implemented 4 bit up and down counters and validated thier  functionality.
+
