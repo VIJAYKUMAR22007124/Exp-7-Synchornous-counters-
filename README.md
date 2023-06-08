@@ -125,8 +125,11 @@ endmodule
 
 ### TRUTH TABLE 
 
-![WhatsApp Image 2023-06-01 at 11 39 42](https://github.com/VIJAYKUMAR22007124/Exp-7-Synchornous-counters-/assets/119657657/ed4dce46-2cd6-45b3-bb5e-afe825f102ee)
+## DOWN COUNTER:
+![image](https://github.com/VIJAYKUMAR22007124/Exp-7-Synchornous-counters-/assets/119657657/6ac026f4-496a-4aa0-a408-98e274f8252e)
 
+## UP COUNTER:
+![image](https://github.com/VIJAYKUMAR22007124/Exp-7-Synchornous-counters-/assets/119657657/7c469c93-b634-4f8e-9aad-c5591cd50dd0)
 
 
 ### RESULTS 
