@@ -1,7 +1,18 @@
 # Exp-6-Synchornous-counters - up counter and down counter 
-### AIM: To implement 4 bit up and down counters and validate  functionality.
-### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
-### SOFTWARE REQUIRED:   Quartus prime
+### AIM:
+
+To implement 4 bit up and down counters and validate  functionality.
+
+
+### HARDWARE REQUIRED:
+
+– PC, Cyclone II , USB flasher
+
+
+### SOFTWARE REQUIRED: 
+
+Quartus prime
+
 ### THEORY 
 
 ## UP COUNTER 
@@ -45,7 +56,9 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 4-bit Count Down Counter
+
 ### Procedure
+
 1.Open a new project using Quartus II.
 
 2.Declare the inputs and outputs inside module projname().
@@ -61,12 +74,12 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 ### PROGRAM 
-/*
+
 ```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: B.VIJAY KUMAR
 RegisterNumber: 212222230173 
-*/
+
 ```
 ### UP COUNTER
 ```
@@ -98,6 +111,7 @@ endmodule
 ```
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+
 ### UP COUNTER
 
 ![Screenshot (468)](https://github.com/VIJAYKUMAR22007124/Exp-7-Synchornous-counters-/assets/119657657/d05bbb56-e91d-446e-a01d-79c943428b5e)
@@ -112,6 +126,7 @@ endmodule
 
 
 ### TIMING DIGRAMS FOR COUNTER  
+
 ### UP COUNTER
 
 ![Screenshot (469)](https://github.com/VIJAYKUMAR22007124/Exp-7-Synchornous-counters-/assets/119657657/65e32571-2410-4d48-9a31-17aae5d7ac5f)
