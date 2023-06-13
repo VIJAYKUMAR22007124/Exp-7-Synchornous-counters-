@@ -65,6 +65,9 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 ### Procedure
 
+```
+
+
 1.Open a new project using Quartus II.
 
 2.Declare the inputs and outputs inside module projname().
@@ -78,6 +81,7 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 6.End the verilog programming.
 
 
+```
 
 ### PROGRAM 
 
