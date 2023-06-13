@@ -57,6 +57,12 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 
+
+
+
+
+
+
 ### Procedure
 
 1.Open a new project using Quartus II.
