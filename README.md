@@ -1,4 +1,6 @@
 # Exp-6-Synchornous-counters - up counter and down counter 
+
+
 ### AIM:
 
 To implement 4 bit up and down counters and validate  functionality.
@@ -65,6 +67,11 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 ### Procedure
 
+
+
+
+
+
 ```
 
 
@@ -79,6 +86,8 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 5.For Up counter increment the count and for Down counter decrement the count.
 
 6.End the verilog programming.
+
+
 
 
 ```
