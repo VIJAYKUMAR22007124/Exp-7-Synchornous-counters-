@@ -68,6 +68,8 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 ### Procedure
 
 ```
+
+
 1.Open a new project using Quartus II.
 
 2.Declare the inputs and outputs inside module projname().
@@ -77,6 +79,8 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 4.Use commands like begin and end to stimulate the counter.
 
 5.For Up counter increment the count and for Down counter decrement the count.
+
+
 ```
 
 ### PROGRAM 
